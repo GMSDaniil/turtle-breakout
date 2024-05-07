@@ -73,7 +73,7 @@ def start():
                 ball.y *= -1
                 
         ###Win
-        if scoreboard.score == 84:
+        if scoreboard.score == 96:
             playsound('sounds/win.mp3', block=False)
             scoreboard.win()
             return
